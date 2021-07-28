@@ -4,3 +4,6 @@ create database security;
 use security;
 
 desc user;
+select * from user;
+update user set role = 'ROLE_MANAGER' where username = 'MANAGER';
+update user set role = 'ROLE_ADMIN' where username = 'ADMIN';
